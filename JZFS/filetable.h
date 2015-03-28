@@ -8,7 +8,7 @@ public:
     FileTable();
     ~FileTable();
     File *TableFile[200];
-    bool SaveEntryFile(File newEntryfile);
+    //bool SaveEntryFile(File newEntryfile);
 
     int SizeFileTable();
     int nextFileId();
